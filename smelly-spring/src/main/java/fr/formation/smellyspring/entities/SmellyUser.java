@@ -14,11 +14,16 @@ public class SmellyUser {
     private Long id;
     @Column(length = 255, nullable = false)
     private String username;
-    @Column()
+    @Column(length = 50, nullable = false)
     private String password;
 
     public SmellyUser() {
 	//
+    }
+
+    public SmellyUser(String username, String password) {
+        this.username = username;
+        this.password = password;
     }
 
     public Long getId() {

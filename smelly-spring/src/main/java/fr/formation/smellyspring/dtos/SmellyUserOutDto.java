@@ -5,6 +5,9 @@ public class SmellyUserOutDto {
     private Long id;
     private String username;
 
+    public SmellyUserOutDto() {
+    }
+
     public SmellyUserOutDto(Long id, String username) {
 	id = this.id;
 	this.username = username;

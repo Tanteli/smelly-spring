@@ -11,6 +11,9 @@ public class SmellyUserInDto {
     @Size(min = 8, max = 12)
     private String password;
 
+    public SmellyUserInDto() {
+    }
+
     public SmellyUserInDto(String username, String password) {
 	this.usernames = username;
 	this.password = password;
