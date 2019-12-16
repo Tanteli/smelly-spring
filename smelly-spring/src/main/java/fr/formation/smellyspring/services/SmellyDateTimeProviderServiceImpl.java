@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 import org.springframework.stereotype.Service;
 
 @Service
-public class SmellyDateTmeProviderServiceImpl implements SmellyDateProviderService {
+public class SmellyDateTimeProviderServiceImpl implements SmellyDateProviderService {
 
     @Override
     public LocalDate getLocalDate() {

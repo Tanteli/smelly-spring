@@ -6,7 +6,9 @@ import fr.formation.smellyspring.dtos.SmellyUserInDto;
 import fr.formation.smellyspring.dtos.SmellyUserOutDto;
 import fr.formation.smellyspring.entities.SmellyUser;
 import fr.formation.smellyspring.repositories.SmellyUserRepository;
+import org.springframework.stereotype.Service;
 
+@Service
 public class SmellyUserServiceImpl implements SmellyUserService {
 
     private SmellyUserRepository repo;

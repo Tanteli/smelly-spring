@@ -1,4 +1,4 @@
-package fr.formation.smellysping;
+package fr.formation.smellyspring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -3,7 +3,9 @@ package fr.formation.smellyspring.services;
 import fr.formation.smellyspring.dtos.SmellyUserInDto;
 import fr.formation.smellyspring.dtos.SmellyUserOutDto;
 import fr.formation.smellyspring.entities.SmellyUser;
+import org.springframework.stereotype.Service;
 
+@Service
 class SmellyUserServiceHelper {
 
     static SmellyUser convert(SmellyUserInDto dto) {
