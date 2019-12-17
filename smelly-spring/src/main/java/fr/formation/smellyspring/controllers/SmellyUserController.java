@@ -53,7 +53,7 @@ public class SmellyUserController {
 	return result;
     }
 
-    @PostMapping
+    @PostMapping("/post")
     public void create(@Valid @RequestBody SmellyUserInDto dto) {
 	LOGGER.debug("Reached \"POST /\"");
 	LOGGER.debug("Verifying something with obscur code...");
