@@ -5,12 +5,17 @@ public class SmellyUserOutDto {
     private Long id;
     private String username;
 
-    public SmellyUserOutDto() {
-    }
-
     public SmellyUserOutDto(Long id, String username) {
 	id = this.id;
 	this.username = username;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public Long getId() {
