@@ -9,5 +9,5 @@ public interface SmellyUserService {
 
     SmellyUserOutDto getSmellyUserOutDto();
 
-    SmellyUserOutDto create(@Valid SmellyUserInDto dto);
+    void create(SmellyUserInDto dto);
 }

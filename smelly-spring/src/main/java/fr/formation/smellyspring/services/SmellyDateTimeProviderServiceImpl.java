@@ -10,7 +10,7 @@ public class SmellyDateTimeProviderServiceImpl implements SmellyDateProviderServ
 
     @Override
     public LocalDate getLocalDate() {
-	throw new IllegalArgumentException("well, not supported!");
+	throw new UnsupportedOperationException("well, not supported!");
     }
 
     @Override

@@ -59,9 +59,9 @@ public class SmellyUserController {
         LOGGER.debug("Verifying something with obscur code...");
         something(dto);
         LOGGER.debug("Something verified!");
-        SmellyUserInDto result = service.create(dto);
+        //SmellyUserInDto result = service.create(dto);
         LOGGER.debug("Returned from service.create(SmellyUserInDto)");
-        LOGGER.debug("Created smelly user with id 1L? Result=" + (result.getId().equals(1L)));
+        //LOGGER.debug("Created smelly user with id 1L? Result=" + (result.getId().equals(1L)));
         LOGGER.debug("Returning... void :)");
     }
 

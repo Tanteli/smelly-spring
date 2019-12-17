@@ -19,9 +19,9 @@ public class SmellyUserServiceImpl implements SmellyUserService {
     }
 
     @Override
-    public SmellyUserOutDto create(@Valid SmellyUserInDto dto) {
+    public void create(@Valid SmellyUserInDto dto) {
 	SmellyUser entity = SmellyUserServiceHelper.convert(dto);
 	repo.save(entity);
-	return SmellyUserServiceHelper.convert(entity);
+	SmellyUserServiceHelper.convert(entity);
     }
 }

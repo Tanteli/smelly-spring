@@ -6,7 +6,7 @@ import javax.validation.constraints.Size;
 public class SmellyUserInDto {
 
     @Size(min = 6, max = 255)
-    private String usernames;
+    private String username;
     @NotBlank
     @Size(min = 8, max = 12)
     private String password;
@@ -15,16 +15,16 @@ public class SmellyUserInDto {
     }
 
     public SmellyUserInDto(String username, String password) {
-	this.usernames = username;
+	this.username = username;
 	this.password = password;
     }
 
     public String getUsername() {
-	return usernames;
+	return username;
     }
 
     public void setUsername(String username) {
-	this.usernames = username;
+	this.username = username;
     }
 
     public String getPassword() {
